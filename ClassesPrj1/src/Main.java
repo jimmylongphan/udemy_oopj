@@ -19,7 +19,7 @@ class Bike {
         this.speed = 0;
     }
 
-    void acclerate(int newSpeed) {
+    void accelerate(int newSpeed) {
         this.speed = newSpeed;
     }
 
@@ -42,9 +42,9 @@ public class Main {
         b1.start();
         b2.start();
 
-        b1.acclerate(50);
-        b1.printState();
+        b1.accelerate(50);
 
+        b1.printState();
         b2.printState();
 
     }
